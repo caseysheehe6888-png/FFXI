@@ -1,0 +1,15 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <autodecline>false</autodecline>
+        <blacklist />
+        <mode>whitelist</mode>
+        <whitelist />
+    </global>
+    <katenkyo>
+        <whitelist>Jhen,Meadows,Santoki,Aneybug,Daemun,Ciphex,Myakki,Failcat,Ziggles,Lazural,Northstarrx,Jalapino,Kyoraku,Demonsquall,Shadowes,Foggytugboat,Cctk,Khudzu,Xaxial</whitelist>
+    </katenkyo>
+    <kyoraku>
+        <whitelist>Khuhzu,Jhen,Cipherx,Metetete,Howhigh,Northstarrx,Wholegraindjohn,Yocuz,Tumyuh,Aneybug,Xalis,Daemun,Ciphex,Shadowes,Myakki,Honeydjohn,Failcat,Wolfsblood,Katziel,Lazural,Wicced,Jalapino,Djohn,Edkitten,Meadows,Demonsquall,Failarmy,Khudzu,Katenkyo,Vitho,Xaxial</whitelist>
+    </kyoraku>
+</settings>
