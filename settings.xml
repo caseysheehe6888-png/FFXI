@@ -1,332 +1,444 @@
 <?xml version="1.1" ?>
 <settings>
     <global>
-        <setmode>PreserveTraits</setmode>
-        <setspeed>0.55</setspeed>
-        <spellsets>
-            <ambu>
-                <slot01>cocoon</slot01>
-                <slot02>erratic flutter</slot02>
-                <slot03>delta thrust</slot03>
-                <slot04>silent storm</slot04>
-                <slot05>chaotic eye</slot05>
-                <slot06>thrashing assault</slot06>
-                <slot07>diffusion ray</slot07>
-                <slot08>fantod</slot08>
-                <slot09>heavy strike</slot09>
-                <slot10>searing tempest</slot10>
-                <slot11>barbed crescent</slot11>
-                <slot12>sudden lunge</slot12>
-                <slot13>magic fruit</slot13>
-                <slot14>empty thrash</slot14>
-                <slot15>nat. meditation</slot15>
-                <slot16>tail slap</slot16>
-                <slot17>sickle slash</slot17>
-                <slot18>water bomb</slot18>
-                <slot19>occultation</slot19>
-                <slot20>sinker drill</slot20>
-            </ambu>
-            <bcnm>
-                <slot01>sudden lunge</slot01>
-                <slot02>tail slap</slot02>
-                <slot03>erratic flutter</slot03>
-                <slot04>barbed crescent</slot04>
-                <slot05>empty thrash</slot05>
-                <slot07>anvil lightning</slot07>
-                <slot08>delta thrust</slot08>
-                <slot09>heavy strike</slot09>
-                <slot10>thrashing assault</slot10>
-                <slot11>diffusion ray</slot11>
-                <slot12>paralyzing triad</slot12>
-                <slot13>sickle slash</slot13>
-                <slot14>nat. meditation</slot14>
-                <slot15>sinker drill</slot15>
-                <slot16>magic fruit</slot16>
-                <slot17>fantod</slot17>
-                <slot18>searing tempest</slot18>
-                <slot19>sheep song</slot19>
-            </bcnm>
-            <default>
+        <Debug_Box>
+            <bg>
+                <alpha>102</alpha>
+                <blue>0</blue>
+                <green>0</green>
+                <red>0</red>
+                <visible>true</visible>
+            </bg>
+            <flags>
+                <bold>true</bold>
+                <bottom>false</bottom>
+                <draggable>true</draggable>
+                <italic>false</italic>
+                <right>false</right>
+            </flags>
+            <padding>3</padding>
+            <pos>
+                <x>1470</x>
+                <y>764</y>
+            </pos>
+            <text>
+                <alpha>255</alpha>
+                <blue>255</blue>
+                <font>Consolas</font>
+                <fonts>
 
-            </default>
-            <dyna>
-                <slot01>thrashing assault</slot01>
-                <slot02>cocoon</slot02>
-                <slot03>erratic flutter</slot03>
-                <slot04>delta thrust</slot04>
-                <slot05>anvil lightning</slot05>
-                <slot06>diffusion ray</slot06>
-                <slot07>fantod</slot07>
-                <slot08>barbed crescent</slot08>
-                <slot10>magic fruit</slot10>
-                <slot11>heavy strike</slot11>
-                <slot12>entomb</slot12>
-                <slot13>sudden lunge</slot13>
-                <slot14>empty thrash</slot14>
-                <slot15>nat. meditation</slot15>
-                <slot16>magic hammer</slot16>
-                <slot18>tail slap</slot18>
-                <slot19>sickle slash</slot19>
-                <slot20>spectral floe</slot20>
-            </dyna>
-            <helms>
-                <slot01>tenebral crush</slot01>
-                <slot02>light of penance</slot02>
-                <slot03>dream flower</slot03>
-                <slot04>occultation</slot04>
-                <slot05>metallic body</slot05>
-                <slot06>subduction</slot06>
-                <slot07>erratic flutter</slot07>
-                <slot08>battery charge</slot08>
-                <slot09>delta thrust</slot09>
-                <slot10>reaving wind</slot10>
-                <slot11>barrier tusk</slot11>
-                <slot12>magic fruit</slot12>
-                <slot13>barbed crescent</slot13>
-                <slot14>white wind</slot14>
-                <slot15>spectral floe</slot15>
-                <slot16>enervation</slot16>
-                <slot17>entomb</slot17>
-                <slot18>magic hammer</slot18>
-                <slot19>cocoon</slot19>
-            </helms>
-            <kam>
-                <slot01>cocoon</slot01>
-                <slot02>empty thrash</slot02>
-                <slot03>erratic flutter</slot03>
-                <slot05>nat. meditation</slot05>
-                <slot06>exuviation</slot06>
-                <slot07>white wind</slot07>
-                <slot08>heavy strike</slot08>
-                <slot09>thrashing assault</slot09>
-                <slot10>tenebral crush</slot10>
-                <slot11>fantod</slot11>
-                <slot13>barrier tusk</slot13>
-                <slot14>magic fruit</slot14>
-                <slot15>embalming earth</slot15>
-                <slot16>diffusion ray</slot16>
-                <slot17>sinker drill</slot17>
-                <slot18>paralyzing triad</slot18>
-                <slot19>sudden lunge</slot19>
-                <slot20>battery charge</slot20>
-            </kam>
-            <magic>
-                <slot01>barbed crescent</slot01>
-                <slot02>tenebral crush</slot02>
-                <slot03>sound blast</slot03>
-                <slot04>magic fruit</slot04>
-                <slot05>erratic flutter</slot05>
-                <slot06>delta thrust</slot06>
-                <slot07>dream flower</slot07>
-                <slot08>subduction</slot08>
-                <slot09>battery charge</slot09>
-                <slot10>occultation</slot10>
-                <slot11>anvil lightning</slot11>
-                <slot12>magic hammer</slot12>
-                <slot13>barrier tusk</slot13>
-                <slot14>spectral floe</slot14>
-                <slot15>white wind</slot15>
-                <slot16>enervation</slot16>
-                <slot17>entomb</slot17>
-                <slot18>cocoon</slot18>
-            </magic>
-            <omen>
-                <slot01>sudden lunge</slot01>
-                <slot02>tail slap</slot02>
-                <slot03>empty thrash</slot03>
-                <slot04>erratic flutter</slot04>
-                <slot06>delta thrust</slot06>
-                <slot07>anvil lightning</slot07>
-                <slot08>heavy strike</slot08>
-                <slot09>thrashing assault</slot09>
-                <slot10>diffusion ray</slot10>
-                <slot11>magic fruit</slot11>
-                <slot12>white wind</slot12>
-                <slot13>sickle slash</slot13>
-                <slot14>nat. meditation</slot14>
-                <slot15>barbed crescent</slot15>
-                <slot16>sinker drill</slot16>
-                <slot17>fantod</slot17>
-                <slot18>searing tempest</slot18>
-                <slot19>occultation</slot19>
-            </omen>
-            <solo>
-                <slot01>barbed crescent</slot01>
-                <slot02>empty thrash</slot02>
-                <slot03>sudden lunge</slot03>
-                <slot04>magic fruit</slot04>
-                <slot05>erratic flutter</slot05>
-                <slot06>delta thrust</slot06>
-                <slot07>tail slap</slot07>
-                <slot08>heavy strike</slot08>
-                <slot09>fantod</slot09>
-                <slot10>thrashing assault</slot10>
-                <slot11>anvil lightning</slot11>
-                <slot12>diffusion ray</slot12>
-                <slot13>occultation</slot13>
-                <slot14>barrier tusk</slot14>
-                <slot15>sickle slash</slot15>
-                <slot16>sinker drill</slot16>
-                <slot17>nat. meditation</slot17>
-                <slot18>cocoon</slot18>
-                <slot19>dream flower</slot19>
-                <slot20>rending deluge</slot20>
-            </solo>
-            <sortie>
-                <slot01>sudden lunge</slot01>
-                <slot02>white wind</slot02>
-                <slot04>tail slap</slot04>
-                <slot05>erratic flutter</slot05>
-                <slot06>delta thrust</slot06>
-                <slot07>anvil lightning</slot07>
-                <slot08>empty thrash</slot08>
-                <slot09>heavy strike</slot09>
-                <slot11>thrashing assault</slot11>
-                <slot12>diffusion ray</slot12>
-                <slot13>barbed crescent</slot13>
-                <slot14>paralyzing triad</slot14>
-                <slot15>sickle slash</slot15>
-                <slot16>nat. meditation</slot16>
-                <slot17>sinker drill</slot17>
-                <slot18>fantod</slot18>
-                <slot19>entomb</slot19>
-            </sortie>
-            <tanking>
-                <slot01>soporific</slot01>
-                <slot02>jettatura</slot02>
-                <slot03>geist wall</slot03>
-                <slot04>sheep song</slot04>
-                <slot05>wild carrot</slot05>
-                <slot06>cursed sphere</slot06>
-                <slot07>metallic body</slot07>
-                <slot08>cocoon</slot08>
-                <slot09>refueling</slot09>
-                <slot10>stinking gas</slot10>
-                <slot11>terror touch</slot11>
-                <slot12>grand slam</slot12>
-                <slot13>blank gaze</slot13>
-            </tanking>
-            <tenzen>
-                <slot01>sudden lunge</slot01>
-                <slot02>tail slap</slot02>
-                <slot03>erratic flutter</slot03>
-                <slot04>barbed crescent</slot04>
-                <slot05>empty thrash</slot05>
-                <slot06>metallic body</slot06>
-                <slot07>delta thrust</slot07>
-                <slot08>anvil lightning</slot08>
-                <slot09>heavy strike</slot09>
-                <slot10>thrashing assault</slot10>
-                <slot11>diffusion ray</slot11>
-                <slot12>paralyzing triad</slot12>
-                <slot13>sickle slash</slot13>
-                <slot14>nat. meditation</slot14>
-                <slot15>magic fruit</slot15>
-                <slot16>sinker drill</slot16>
-                <slot17>fantod</slot17>
-                <slot18>dream flower</slot18>
-                <slot19>cocoon</slot19>
-                <slot20>occultation</slot20>
-            </tenzen>
-            <tp>
-                <slot01>barbed crescent</slot01>
-                <slot02>sudden lunge</slot02>
-                <slot03>tail slap</slot03>
-                <slot04>magic fruit</slot04>
-                <slot05>erratic flutter</slot05>
-                <slot06>delta thrust</slot06>
-                <slot07>empty thrash</slot07>
-                <slot08>thrashing assault</slot08>
-                <slot09>heavy strike</slot09>
-                <slot10>diffusion ray</slot10>
-                <slot11>anvil lightning</slot11>
-                <slot12>metallic body</slot12>
-                <slot13>paralyzing triad</slot13>
-                <slot14>nat. meditation</slot14>
-                <slot15>sickle slash</slot15>
-                <slot16>fantod</slot16>
-                <slot17>sinker drill</slot17>
-                <slot18>cocoon</slot18>
-                <slot19>searing tempest</slot19>
-            </tp>
-            <unm>
-                <slot01>cocoon</slot01>
-                <slot02>empty thrash</slot02>
-                <slot03>erratic flutter</slot03>
-                <slot04>magic fruit</slot04>
-                <slot05>nat. meditation</slot05>
-                <slot06>barbed crescent</slot06>
-                <slot07>diffusion ray</slot07>
-                <slot08>white wind</slot08>
-                <slot09>head butt</slot09>
-                <slot10>fantod</slot10>
-                <slot11>thrashing assault</slot11>
-                <slot12>delta thrust</slot12>
-                <slot13>winds of promy.</slot13>
-                <slot14>sudden lunge</slot14>
-                <slot15>barrier tusk</slot15>
-                <slot16>tail slap</slot16>
-                <slot17>sinker drill</slot17>
-                <slot18>sickle slash</slot18>
-                <slot19>heavy strike</slot19>
-                <slot20>battery charge</slot20>
-            </unm>
-            <vagary>
-                <slot01>occultation</slot01>
-                <slot03>erratic flutter</slot03>
-                <slot04>barbed crescent</slot04>
-                <slot05>anvil lightning</slot05>
-                <slot06>wind breath</slot06>
-                <slot07>battery charge</slot07>
-                <slot08>delta thrust</slot08>
-                <slot09>sudden lunge</slot09>
-                <slot10>spectral floe</slot10>
-                <slot11>reactor cool</slot11>
-                <slot12>searing tempest</slot12>
-                <slot13>auroral drape</slot13>
-                <slot14>magic fruit</slot14>
-                <slot15>memento mori</slot15>
-                <slot16>scouring spate</slot16>
-                <slot17>fantod</slot17>
-                <slot18>dream flower</slot18>
-                <slot20>subduction</slot20>
-            </vagary>
-            <vw1>
-                <slot01>Firespit</slot01>
-                <slot02>Heat Breath</slot02>
-                <slot03>Thermal Pulse</slot03>
-                <slot04>Blastbomb</slot04>
-                <slot05>Infrasonics</slot05>
-                <slot06>Frost Breath</slot06>
-                <slot07>Ice Break</slot07>
-                <slot08>Cold Wave</slot08>
-                <slot09>Sandspin</slot09>
-                <slot10>Magnetite Cloud</slot10>
-                <slot11>Cimicine Discharge</slot11>
-                <slot12>Bad Breath</slot12>
-                <slot13>Acrid Stream</slot13>
-                <slot14>Maelstrom</slot14>
-                <slot15>Corrosive Ooze</slot15>
-                <slot16>Cursed Sphere</slot16>
-                <slot17>Awful Eye</slot17>
-            </vw1>
-            <vw2>
-                <slot01>Hecatomb Wave</slot01>
-                <slot02>Mysterious Light</slot02>
-                <slot03>Leafstorm</slot03>
-                <slot04>Reaving Wind</slot04>
-                <slot05>Temporal Shift</slot05>
-                <slot06>Mind Blast</slot06>
-                <slot07>Blitzstrahl</slot07>
-                <slot08>Charged Whisker</slot08>
-                <slot09>Blank Gaze</slot09>
-                <slot10>Radiant Breath</slot10>
-                <slot11>Light of Penance</slot11>
-                <slot12>Actinic Burst</slot12>
-                <slot13>Death Ray</slot13>
-                <slot14>Eyes On Me</slot14>
-                <slot15>Sandspray</slot15>
-            </vw2>
-        </spellsets>
+                </fonts>
+                <green>255</green>
+                <red>255</red>
+                <size>10</size>
+                <stroke>
+                    <alpha>255</alpha>
+                    <blue>15</blue>
+                    <green>15</green>
+                    <red>15</red>
+                    <width>2</width>
+                </stroke>
+            </text>
+        </Debug_Box>
+        <Display_Box>
+            <bg>
+                <alpha>102</alpha>
+                <blue>0</blue>
+                <green>0</green>
+                <red>0</red>
+                <visible>true</visible>
+            </bg>
+            <flags>
+                <bold>true</bold>
+                <bottom>false</bottom>
+                <draggable>true</draggable>
+                <italic>false</italic>
+                <right>false</right>
+            </flags>
+            <padding>3</padding>
+            <pos>
+                <x>500</x>
+                <y>500</y>
+            </pos>
+            <text>
+                <alpha>255</alpha>
+                <blue>255</blue>
+                <font>Consolas</font>
+                <fonts>
+
+                </fonts>
+                <green>255</green>
+                <red>255</red>
+                <size>10</size>
+                <stroke>
+                    <alpha>255</alpha>
+                    <blue>15</blue>
+                    <green>15</green>
+                    <red>15</red>
+                    <width>2</width>
+                </stroke>
+            </text>
+        </Display_Box>
+        <Display_MinValueCells>0</Display_MinValueCells>
+        <Display_Style>lattice</Display_Style>
+        <Halo>
+            <crown>
+                <bg>
+                    <alpha>0</alpha>
+                    <blue>0</blue>
+                    <green>0</green>
+                    <red>0</red>
+                    <visible>false</visible>
+                </bg>
+                <flags>
+                    <bold>true</bold>
+                    <bottom>false</bottom>
+                    <draggable>false</draggable>
+                    <italic>false</italic>
+                    <right>false</right>
+                </flags>
+                <padding>3</padding>
+                <pos>
+                    <x>0</x>
+                    <y>0</y>
+                </pos>
+                <text>
+                    <alpha>255</alpha>
+                    <blue>240</blue>
+                    <font>Consolas</font>
+                    <fonts>
+
+                    </fonts>
+                    <green>246</green>
+                    <red>246</red>
+                    <size>11</size>
+                    <stroke>
+                        <alpha>255</alpha>
+                        <blue>10</blue>
+                        <green>8</green>
+                        <red>8</red>
+                        <width>2</width>
+                    </stroke>
+                </text>
+            </crown>
+            <hold>
+                <bg>
+                    <alpha>0</alpha>
+                    <blue>0</blue>
+                    <green>0</green>
+                    <red>0</red>
+                    <visible>false</visible>
+                </bg>
+                <flags>
+                    <bold>true</bold>
+                    <bottom>false</bottom>
+                    <draggable>false</draggable>
+                    <italic>false</italic>
+                    <right>false</right>
+                </flags>
+                <padding>3</padding>
+                <pos>
+                    <x>0</x>
+                    <y>0</y>
+                </pos>
+                <text>
+                    <alpha>255</alpha>
+                    <blue>240</blue>
+                    <font>Consolas</font>
+                    <fonts>
+
+                    </fonts>
+                    <green>246</green>
+                    <red>246</red>
+                    <size>11</size>
+                    <stroke>
+                        <alpha>255</alpha>
+                        <blue>10</blue>
+                        <green>8</green>
+                        <red>8</red>
+                        <width>2</width>
+                    </stroke>
+                </text>
+            </hold>
+            <hue>
+                <cyan>
+                    <blue>255</blue>
+                    <green>196</green>
+                    <red>96</red>
+                </cyan>
+                <good>
+                    <blue>150</blue>
+                    <green>226</green>
+                    <red>96</red>
+                </good>
+                <idle>
+                    <blue>108</blue>
+                    <green>98</green>
+                    <red>92</red>
+                </idle>
+                <label>
+                    <blue>186</blue>
+                    <green>176</green>
+                    <red>168</red>
+                </label>
+                <value>
+                    <blue>240</blue>
+                    <green>246</green>
+                    <red>246</red>
+                </value>
+                <warn>
+                    <blue>80</blue>
+                    <green>190</green>
+                    <red>255</red>
+                </warn>
+            </hue>
+            <labels>
+                <bg>
+                    <alpha>0</alpha>
+                    <blue>0</blue>
+                    <green>0</green>
+                    <red>0</red>
+                    <visible>false</visible>
+                </bg>
+                <flags>
+                    <bold>false</bold>
+                    <bottom>false</bottom>
+                    <draggable>false</draggable>
+                    <italic>false</italic>
+                    <right>false</right>
+                </flags>
+                <padding>3</padding>
+                <pos>
+                    <x>0</x>
+                    <y>0</y>
+                </pos>
+                <text>
+                    <alpha>255</alpha>
+                    <blue>186</blue>
+                    <font>Consolas</font>
+                    <fonts>
+
+                    </fonts>
+                    <green>176</green>
+                    <red>168</red>
+                    <size>11</size>
+                    <stroke>
+                        <alpha>255</alpha>
+                        <blue>10</blue>
+                        <green>8</green>
+                        <red>8</red>
+                        <width>2</width>
+                    </stroke>
+                </text>
+            </labels>
+            <value_cap>20</value_cap>
+            <values>
+                <bold>true</bold>
+                <stroke_width>2</stroke_width>
+            </values>
+        </Halo>
+        <Lattice>
+            <body>
+                <alpha>190</alpha>
+                <blue>0</blue>
+                <green>0</green>
+                <red>0</red>
+            </body>
+            <border>
+                <alpha>255</alpha>
+                <blue>110</blue>
+                <green>110</green>
+                <red>110</red>
+                <width>1</width>
+            </border>
+            <pad>4</pad>
+            <pad_bottom>2</pad_bottom>
+            <rig>
+                <cols>9</cols>
+                <enabled>true</enabled>
+                <gap>2</gap>
+                <gutter>1</gutter>
+                <hue>
+                    <disable>
+                        <alpha>255</alpha>
+                        <blue>255</blue>
+                        <green>200</green>
+                        <red>90</red>
+                    </disable>
+                    <ench>
+                        <alpha>255</alpha>
+                        <blue>140</blue>
+                        <green>236</green>
+                        <red>236</red>
+                    </ench>
+                    <hoxne>
+                        <alpha>255</alpha>
+                        <blue>110</blue>
+                        <green>220</green>
+                        <red>80</red>
+                    </hoxne>
+                    <lock>
+                        <alpha>255</alpha>
+                        <blue>255</blue>
+                        <green>150</green>
+                        <red>186</red>
+                    </lock>
+                    <other>
+                        <alpha>255</alpha>
+                        <blue>235</blue>
+                        <green>235</green>
+                        <red>235</red>
+                    </other>
+                    <strip>
+                        <alpha>255</alpha>
+                        <blue>64</blue>
+                        <green>132</green>
+                        <red>255</red>
+                    </strip>
+                    <weapon>
+                        <alpha>255</alpha>
+                        <blue>255</blue>
+                        <green>150</green>
+                        <red>186</red>
+                    </weapon>
+                </hue>
+                <inset>3</inset>
+                <recess>
+                    <alpha>235</alpha>
+                    <blue>0</blue>
+                    <green>0</green>
+                    <red>0</red>
+                </recess>
+                <socket>
+                    <alpha>235</alpha>
+                    <blue>104</blue>
+                    <green>82</green>
+                    <red>70</red>
+                </socket>
+            </rig>
+            <strip>
+                <alpha>220</alpha>
+                <blue>50</blue>
+                <green>30</green>
+                <red>30</red>
+            </strip>
+        </Lattice>
+        <Settings_Version>
+            <display>
+                <katenkyo>2</katenkyo>
+                <kyoraku>2</kyoraku>
+            </display>
+            <halo>
+                <katenkyo>1</katenkyo>
+                <kyoraku>1</kyoraku>
+            </halo>
+        </Settings_Version>
+        <debug>false</debug>
+        <delay>3</delay>
+        <gear_reporting>false</gear_reporting>
+        <info>true</info>
+        <oneline>false</oneline>
+        <visible>true</visible>
+        <warn>true</warn>
     </global>
+    <katenkyo>
+        <Debug_Box>
+            <bg>
+                <alpha>190</alpha>
+            </bg>
+            <flags>
+                <draggable>false</draggable>
+            </flags>
+            <pos>
+                <x>0</x>
+                <y>50</y>
+            </pos>
+            <text>
+                <size>11</size>
+            </text>
+        </Debug_Box>
+        <Display_Box>
+            <bg>
+                <alpha>190</alpha>
+            </bg>
+            <pos>
+                <x>1042</x>
+                <y>476</y>
+            </pos>
+            <text>
+                <size>12</size>
+            </text>
+        </Display_Box>
+        <Display_Style>classic</Display_Style>
+        <Halo>
+            <crown>
+                <pos>
+                    <x>1048</x>
+                    <y>516</y>
+                </pos>
+            </crown>
+            <hold>
+                <pos>
+                    <x>1048</x>
+                    <y>516</y>
+                </pos>
+            </hold>
+            <labels>
+                <pos>
+                    <x>1048</x>
+                    <y>516</y>
+                </pos>
+            </labels>
+        </Halo>
+    </katenkyo>
+    <kyoraku>
+        <Debug_Box>
+            <bg>
+                <alpha>190</alpha>
+            </bg>
+            <flags>
+                <draggable>false</draggable>
+            </flags>
+            <pos>
+                <x>0</x>
+                <y>50</y>
+            </pos>
+            <text>
+                <size>11</size>
+            </text>
+        </Debug_Box>
+        <Display_Box>
+            <bg>
+                <alpha>190</alpha>
+            </bg>
+            <pos>
+                <x>1042</x>
+                <y>476</y>
+            </pos>
+            <text>
+                <size>12</size>
+            </text>
+        </Display_Box>
+        <Display_Style>classic</Display_Style>
+        <Halo>
+            <crown>
+                <pos>
+                    <x>1048</x>
+                    <y>516</y>
+                </pos>
+            </crown>
+            <hold>
+                <pos>
+                    <x>1048</x>
+                    <y>516</y>
+                </pos>
+            </hold>
+            <labels>
+                <pos>
+                    <x>1048</x>
+                    <y>516</y>
+                </pos>
+            </labels>
+        </Halo>
+    </kyoraku>
 </settings>
