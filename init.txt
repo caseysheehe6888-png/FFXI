@@ -95,6 +95,13 @@ lua load Gaze_check
 lua load SellNPC
 lua load QuietSparks
 lua load XIVbar
+lua load LimbusHelper
+lua load Combatlog
+lua load Targetlines
+lua load TargetRing
+lua load FastFollow
+lua load XivParty
+lua load Trade
 
 //Other binds!
 //@ = Windows Key
